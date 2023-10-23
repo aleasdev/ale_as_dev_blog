@@ -1,7 +1,8 @@
-baseURL = 'https://main--friendly-taffy-3a47a4.netlify.app'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'aleja@ale'
 theme = 'hugo-theme-console'
+relativeURLs = true
 
 
 [params]
@@ -18,6 +19,6 @@ theme = 'hugo-theme-console'
 
   [[params.navlinks]]
   name = "reading/"
-  url = "/reading/"
+  url = "reading/"
   
  
