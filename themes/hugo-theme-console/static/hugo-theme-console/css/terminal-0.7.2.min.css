@@ -369,9 +369,7 @@ p {
     margin: 0 auto;
     padding: 0 calc(var(--global-space) * 2);
 }
-img {
-    width: 100%;
-}
+
 .progress-bar {
     height: 8px;
     background-color: var(--progress-bar-background);
