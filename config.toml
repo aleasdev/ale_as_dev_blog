@@ -1,4 +1,4 @@
-baseURL = 'https://friendly-taffy-3a47a4.netlify.app'
+baseURL = 'https://alejandrochavez.netlify.app'
 languageCode = 'en-us'
 title = 'aleja@ale'
 theme = 'hugo-theme-console'
