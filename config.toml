@@ -1,14 +1,23 @@
-title = "My New Hugo Site"
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'aleja@ale'
+theme = 'hugo-theme-console'
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 10
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 20
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  
+
+  [[params.navlinks]]
+  name = "home/"
+  url = "/"
+
+  [[params.navlinks]]
+  name = "reading/"
+  url = "reading/"
+  
+ 
