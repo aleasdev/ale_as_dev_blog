@@ -1,8 +1,7 @@
-baseURL = '/'
+baseURL = 'http://localhost:1313'
 languageCode = 'en-us'
 title = 'aleja@ale'
 theme = 'hugo-theme-console'
-relativeURLs = true
 
 
 [params]
