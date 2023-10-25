@@ -231,8 +231,17 @@ figure {
     
 }
 
+
+@media only screen and (max-width: 400px) {
+    img{
+        max-width: 100%;
+        min-width: none;
+    }
+}
+
 @media only screen and (max-width: 850px) {
 
+    
     
 
     .site-name {
@@ -241,7 +250,13 @@ figure {
         display:inline-block;
         vertical-align: middle
     }
-    
+   
+    #terminal-prompt-links{
+        width: 8ch;
+        overflow: hidden;
+        display:inline-block;
+        vertical-align: middle
+    }
 
     .terminal-nav {
         align-items: flex-start;

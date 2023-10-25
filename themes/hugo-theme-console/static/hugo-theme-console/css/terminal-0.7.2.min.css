@@ -861,3 +861,8 @@ figure > figcaption {
 .hljs-strong {
     font-weight: 700;
 }
+
+img {
+    max-width: 60%;
+    
+}
