@@ -1,4 +1,4 @@
-baseURL = 'https://alejandrochavez.netlify.app'
+baseURL = 'https://alejandrochavez.netlify.app/'
 languageCode = 'en-us'
 title = 'aleja@ale'
 theme = 'hugo-theme-console'
@@ -20,5 +20,12 @@ relativeURLs = true
   [[params.navlinks]]
   name = "reading/"
   url = "reading/"
+  
+  [[params.navlinks]]
+  name = "projects/"
+  url = "projects/"
+  
+
+  
   
  
