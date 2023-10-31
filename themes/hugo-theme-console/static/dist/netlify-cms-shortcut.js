@@ -12,7 +12,7 @@ CMS.registerEditorComponent({
             widget: "image"
         },
     ],
-    pattern: /{{< imgpro src="([a-zA-Z0-9-_ ]+)" alt="([a-zA-Z0-9-_ ]+)" >}}/,
+    pattern: /{{< imgh src="([a-zA-Z0-9-_ ]+)" alt="([a-zA-Z0-9-_ ]+)" >}}/,
     fromBlock: function(match) {
         return {
             title: match[1],
@@ -20,7 +20,7 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function(obj) {
-        return `{{< imgpro src="${obj.src}" alt="${obj.title}" >}}`;
+        return `{{< imgh src="${obj.src}" alt="${obj.title}" >}}`;
     },
     toPreview: function(obj) {
         return `<figure><img src=${obj.src} alt=${obj.title}><figcaption>${obj.title}</figcaption></figure>`;

@@ -1,3 +1,4 @@
 {{ $image := .Page.Resources.GetMatch (.Get "src") }}
-
+<a href="{{ $image.RelPermalink }}">
 <img src = "{{ ($image.Resize "JPEG q75 300x" ).RelPermalink }}" {{with .Get "alt" }} alt="{{.}}" {{ else }} alt="" {{ end}} loading="lazy">
+</a>
