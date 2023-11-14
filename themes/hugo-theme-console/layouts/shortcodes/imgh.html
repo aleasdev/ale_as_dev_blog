@@ -73,6 +73,7 @@
           <img alt="{{ $alt }}"
            src="{{ $img.RelPermalink }}"
            loading="lazy"
+           class="img-post"
            {{- if $zoom }} data-zoomable{{end}}
            {{- with .Get "width" }} width="{{.}}"{{end}}
            {{- with .Get "height" }} height="{{.}}"{{end}}
@@ -89,13 +90,14 @@
                {{ $img_lg.RelPermalink }} 1200w"
                src="{{ $img_sm.RelPermalink }}"
                width="{{$img.Width}}}"
+               class="img-post"
                
                loading="lazy"
                {{- if $zoom }} data-zoomable{{end}}
                {{- with $img_class }} class="{{.}}"{{end}} />
         {{- end }}
       {{- else -}}
-        <img src="{{ $destination | safeURL }}" alt="{{ $alt }}" loading="lazy" {{ if $zoom }}data-zoomable{{end}}
+        <img src="{{ $destination | safeURL }}" alt="{{ $alt }}" loading="lazy" class="img-post" {{ if $zoom }}data-zoomable{{end}}
              {{- with .Get "width" }} width="{{.}}"{{end}} {{- with .Get "height" }} height="{{.}}"{{end}}
              {{- with $img_class }} class="{{.}}"{{end}} />
       {{- end -}}

@@ -862,7 +862,12 @@ figure > figcaption {
     font-weight: 700;
 }
 
-img {
+.img-post {
     max-width: 60%;
     
+}
+
+figure {
+    display: flex;
+    justify-content: center;
 }

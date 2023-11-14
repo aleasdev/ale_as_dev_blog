@@ -14,7 +14,6 @@ The world isn't going to give me anything. and instead, i should focus on what i
 
 I'm in my third year of computer science and i was starting to feel anxious about going out there to get a job, to be honest, i don't have anything valuable to offer.
 
-{{< imgpro src="screenshot-from-2023-10-04-17-15-14.png" alt="librito bacan" >}}
 
 The only things i know how to do well is googling the things i don't know.
 
@@ -56,5 +55,3 @@ if I stay with it, then one day I will have been working on it for forty years, 
 		- it must be launched in a venue conducive to such remarking, without this conduciveness to chatter, a purple cow, may never be seen
 
 {{< imgh src="screenshot-from-2023-10-04-17-15-14.png" alt="librito bacan" >}}
-
-{{< imgpro src="screenshot-from-2023-10-04-17-15-14.png" alt="librito bacan" >}}
